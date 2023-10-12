@@ -13,4 +13,9 @@ public class AppConfig {
     public MemberService memberService() {
         return new MemberService();
     }
+
+    @Bean
+    public DBRepository dbRepository() {
+        return new DBRepository();
+    }
 }
