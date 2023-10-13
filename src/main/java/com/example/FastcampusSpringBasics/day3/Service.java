@@ -1,4 +1,4 @@
-package com.example.FastcampusSpringBasics;
+package com.example.FastcampusSpringBasics.day3;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

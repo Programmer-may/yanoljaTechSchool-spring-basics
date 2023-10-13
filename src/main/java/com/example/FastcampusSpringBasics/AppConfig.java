@@ -1,6 +1,8 @@
 package com.example.FastcampusSpringBasics;
 
 
+import com.example.FastcampusSpringBasics.day1.MemberService;
+import com.example.FastcampusSpringBasics.day3.DBRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

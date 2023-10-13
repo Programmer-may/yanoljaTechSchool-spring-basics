@@ -1,4 +1,4 @@
-package com.example.FastcampusSpringBasics;
+package com.example.FastcampusSpringBasics.day1;
 
 public class MemberService {
 

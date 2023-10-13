@@ -1,4 +1,4 @@
-package com.example.FastcampusSpringBasics;
+package com.example.FastcampusSpringBasics.day3;
 
 public interface Repository {
     abstract void save(String data);

@@ -1,4 +1,4 @@
-package com.example.FastcampusSpringBasics;
+package com.example.FastcampusSpringBasics.day2;
 
 public class DemoOverride {
 

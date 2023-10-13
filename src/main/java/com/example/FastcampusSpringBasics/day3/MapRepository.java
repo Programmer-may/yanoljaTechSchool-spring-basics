@@ -1,4 +1,4 @@
-package com.example.FastcampusSpringBasics;
+package com.example.FastcampusSpringBasics.day3;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +7,7 @@ import java.util.Map;
  * DB가 없을 때
  * RDBMS -> table -> key-value Map
  */
-public class MapRepository implements Repository{
+public class MapRepository implements Repository {
 
     Map<Integer, String> db = new HashMap<>(); // 조회가 빠름
     int id = 0;
