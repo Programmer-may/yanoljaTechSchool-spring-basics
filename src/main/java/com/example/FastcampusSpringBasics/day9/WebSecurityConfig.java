@@ -15,6 +15,19 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+/**
+ * 1) 인증(authentication) : 로그인
+ *    # 쿠키 vs 세션 vs JWT
+ *    (1) 쿠키 : 보안 문제
+ *    (2) 세션 : 금고
+ *    (3) JWT "암호화" : // 유저 로그인
+ *                     // -> 로그인 성공 JWT 생성 & 회신
+ *                     -> 유저는 요청할 때마다 JWT를 같이 줘요.
+ *                     -> JWT를 복호화(decoding)
+ *
+ * 2) 인가(authorization) : 권한
+ */
+
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig {
