@@ -32,7 +32,11 @@ public class JwtTokenProvider {
     @Autowired
     private UserDetailsService userDetailsService;
 
-
+    //    @PostConstruct
+    //    public void init() {
+    //        secretKey = Base64.getEncoder()
+    //            .encodeToString(secretKey.getBytes());
+    //    }
     @PostConstruct
     public void init() {
         //String base64EncodedSecretKey = Base64.getEncoder().encodeToString(secretKey.getBytes());
